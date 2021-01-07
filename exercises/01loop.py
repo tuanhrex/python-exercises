@@ -13,3 +13,24 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+
+# Option 1: With prompts for statements and number of times
+def p_times1():
+    statement = input('What is your statement?\n')
+    num = input('How many times would you like to make that statement?\n')
+
+
+    for line in range(int(num)):
+        p_times = statement
+        print(p_times)
+        
+p_times1()
+
+# Option 2: Method with two inputs
+# def p_times2(input1, input2):
+#     for line in range((input2)):
+#         print(input1)
+
+# p_times2('yo', 7)
